@@ -7,6 +7,8 @@ public class App
 	}
 	
 	public static void main(String[] args) {
-		
+		App obj = new App();
+		float res1 = obj.sum(50,-20);
+		System.out.println(res1);
 	}
 }
